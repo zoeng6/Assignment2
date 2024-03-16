@@ -1,0 +1,158 @@
+.container {
+    position: relative;
+  }
+  
+  .background-img {
+    position: absolute;
+    opacity: 0.9; 
+  }
+
+  .orbiter-img {
+    position: center ;
+    transform: translate(80%, 100%);
+    width : 20%;
+    height : auto; 
+    z-index: 1; /* Ensure the piano image appears in front of the background */
+  }
+
+  .imax-img {
+    position: center ;
+    transform: translate(-70%, 720%);
+    width : 10%;
+    height : auto; 
+    z-index: 2; /* Ensure the imax image appears in front of the background */
+  }
+
+  .wings-img {
+    transform: translate(-360%, -100%);
+    width : 6%;
+    height : auto; 
+    z-index: 3; /* Ensure the wings image appears in front of the background */
+  }
+  
+  .title {
+    position: absolute;
+    bottom: -460px;
+    left: 55px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+    color: #f9e90a; 
+    letter-spacing: 20px; 
+    word-spacing: 5px;
+    
+  }
+  
+  .subtitle {
+    position: absolute;
+    bottom: -400px;
+    left: 60px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: normal;
+    letter-spacing: 1px; 
+    word-spacing: 2px;
+  }
+
+
+  .further {
+    position: absolute;
+    bottom: -380px;
+    left: 200px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #FFFFFF;
+    font-weight: normal;
+    letter-spacing: 6px; 
+    word-spacing: 2px;
+  }
+  
+  .director {
+    font-family: "Lucida Handwriting", cursive;
+    font-style: italic;
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+  
+  #director1 {
+    position: absolute;
+    font-size: 8px;
+    top: 40px;
+    left: 40px;
+    letter-spacing: 2.5px; 
+    word-spacing: 85px;
+  }
+  
+  #director2 {
+    position: absolute;
+    font-size: 12px;
+    top: 45px;
+    left: 20px;
+    letter-spacing: 1px; 
+    word-spacing: 45px;
+  }
+  #director3 {
+    position: absolute;
+    font-size: 8px;
+    top: 40px;
+    left: 425px;
+    letter-spacing: 2.5px; 
+  
+  }
+
+  
+  .footnote {
+    position: absolute;
+    color: #FFFFFF; 
+  }
+  #every {
+    bottom: -510px;
+    left: 190px;
+    font-size: 10px;
+    letter-spacing: 7px; 
+    word-spacing: 2px;
+  }
+  
+  #date {
+    bottom: -540px;
+    left: 190px;
+    font-size: 20px;
+  }
+  
+  #disney {
+    bottom: -550px;
+    left: 230px;
+    font-size: 12px;
+  }
+
+  .award {
+    font-family: "Lucida Handwriting", cursive;
+    font-style: italic;
+    font-size: 8px;
+    Top: 97px;
+    color: #efa905;
+    text-align: center;
+  }
+  
+  #music {
+    position: absolute;
+    left: 150px;
+    
+  }
+  
+  #picture {
+    position: absolute;
+    left: 237px;
+    
+  }
+  
+  #visual {
+    position: absolute;
+    left: 330px;
+    
+  }
+
+
+  
